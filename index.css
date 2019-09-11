@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: purple;
+    background-color: black;
 }
 
 #header {
@@ -22,15 +22,20 @@ body {
 
 #first-game-box {
     border: 1px solid green;
-    color: lime;
     height: 35vh;
     width: 98.5vw;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    transition: all 1s ease;
+}
+
+#first-game-box:hover {
+    box-shadow: 4px 4px 4px 4px red;
 }
 
 #first-game-text {
+    color: lime;
     text-align: center;
     font-weight: bold;
     margin-top: 100px;
@@ -38,9 +43,35 @@ body {
 
 #second-game-box {
     border: 1px solid blue;
-    color: skyblue;
     margin-left: 10px;
     margin-top: 10px;
     width: 98.5vw;
     height: 35vh;
+    transition: all 1s ease;
+}
+
+#second-game-box:hover {
+    box-shadow: 4px 4px 4px 4px white;
+}
+
+#second-game-text {
+    color: lime;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#third-game-box {
+    border: 1px solid orangered;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 98.5vw;
+    height: 35vh;
+}
+
+#third-game-text {
+    color: lime;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
 }
