@@ -1,17 +1,17 @@
 body {
     margin: 0;
-    background-color: black;
+    background-color: white;
 }
 
 #header {
     border: 1px solid black;
     height: 20vh;
     width: 100vw;
-    background-color: skyblue;
+    background-color: blue;
 }
 
 #header__text {
-    color: red;
+    color: orange;
     font-size: 75px;
     font-weight: bold;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -21,7 +21,10 @@ body {
 }
 
 #first-game-box {
-    border: 1px solid green;
+    border: 1px solid white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-uU8jWm4OK89NmpAL9QAy6_-0KcHB1qnTCXJOs7wqc_LSZ4p), url();
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 35vh;
     width: 98.5vw;
     margin-top: 10px;
@@ -31,7 +34,7 @@ body {
 }
 
 #first-game-box:hover {
-    box-shadow: 4px 4px 4px 4px red;
+    box-shadow: 4px 4px 4px 4px blue;
 }
 
 #first-game-text {
@@ -42,7 +45,7 @@ body {
 }
 
 #second-game-box {
-    border: 1px solid blue;
+    border: 1px solid white;
     margin-left: 10px;
     margin-top: 10px;
     width: 98.5vw;
@@ -51,7 +54,7 @@ body {
 }
 
 #second-game-box:hover {
-    box-shadow: 4px 4px 4px 4px white;
+    box-shadow: 4px 4px 4px 4px blue;
 }
 
 #second-game-text {
@@ -62,11 +65,16 @@ body {
 }
 
 #third-game-box {
-    border: 1px solid orangered;
+    border: 1px solid white;
     margin-left: 10px;
     margin-top: 10px;
     width: 98.5vw;
     height: 35vh;
+    transition: all 1s ease;
+}
+
+#third-game-box:hover {
+    box-shadow: 4px 4px 4px 4px blue;
 }
 
 #third-game-text {
