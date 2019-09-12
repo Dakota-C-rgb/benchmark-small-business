@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: white;
+    background-color: black;
 }
 
 a {
@@ -92,6 +92,10 @@ a {
     width: 98.5vw;
     height: 35vh;
     transition: all 1s ease;
+    background-image: url(https://www.barraques.cat/pngfile/big/138-1387604_computer-game-wallpaper-warface-first-person-shooter-warface.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -50px;
 }
 
 #third-game-box:hover {
@@ -99,8 +103,14 @@ a {
 }
 
 #third-game-text {
-    color: lime;
+    color: orange;
     font-weight: bold;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
+    font-size: 50px;
+    border: 1px solid black;
+    opacity: .7;
+    background-color: black;
+    width: 98.3vw;
+    
 }
