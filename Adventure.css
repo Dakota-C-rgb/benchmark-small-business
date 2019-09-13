@@ -5,6 +5,12 @@ body {
     background-repeat: no-repeat;
 }
 
+button {
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+}
+
 #header {
     border: 1px solid black;
     height: 20vh;
@@ -34,7 +40,7 @@ body {
     background-image: url(https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-05-03-11-20/borderlands_3.jpeg/EG11/resize/690x-1/quality/75/format/jpg);
     background-size: 355px 407px;
     background-repeat: no-repeat;
-    opacity: .8;
+    opacity: .6;
     width: 45vw;
     margin-top: 30px;
     margin-left: 50px;
@@ -45,6 +51,8 @@ body {
 
 #game-bundle-one:hover {
     box-shadow: 4px 4px 4px 4px orange;
+    opacity: 1;
+    cursor: pointer;
 }
 
 #game-bundle-one-text {
@@ -53,19 +61,80 @@ body {
     background-color: black;
     opacity: .9;
     font-size: 30px;
+    text-align: center;
 }
 
 #game-bundle-two {
+    background-image: url(https://gamespot1.cbsistatic.com/uploads/scale_medium/1197/11970954/2877410-910bfmlqqjl._sl1500_.jpg);
+    background-size: 355px 407px;
+    background-repeat: no-repeat;
+    opacity: .6; 
     width: 45vw;
     margin-top: 30px;
     margin-left: 50px;
     border: 2px solid orange;
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+
+#game-bundle-two:hover {
+    box-shadow: 4px 4px 4px 4px orange;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#game-bundle-two-text {
+    color: orange;
+    margin-top: 290px;
+    background-color: black;
+    opacity: .9;
+    font-size: 30px;
+    text-align: center;
 }
 
 #game-bundle-three {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/71CEpaPQVeL._SL1500_.jpg);
+    background-size: 355px 407px;
+    background-repeat: no-repeat;
+    opacity: .6;
     width: 45vw;
     margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
     border: 2px solid orange;
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+
+#game-bundle-three:hover {
+    box-shadow: 4px 4px 4px 4px orange;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#game-bundle-three-text {
+    color: orange;
+    margin-top: 290px;
+    background-color: black;
+    opacity: .9;
+    font-size: 30px;
+    text-align: center;
+}
+
+#home-button {
+    border: 2px solid orange;
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    height: 30px;
+    opacity: .6;
+    transition: all 1s ease;
+    width: 200px;
+}
+
+#home-button:hover {
+    box-shadow: 2px 2px 2px 2px orange;
+    opacity: 1;
+    cursor: pointer;
 }
