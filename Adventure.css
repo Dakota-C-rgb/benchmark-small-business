@@ -1,32 +1,40 @@
 body {
     margin: 0;
+
     background-image: url(https://i.imgur.com/8C01K9U.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 button {
-    text-decoration: none;
     color: orange;
+
+    text-decoration: none;
     text-align: center;
 }
 
 #header {
     border: 1px solid black;
+    background-color: black;
+
     height: 20vh;
     width: 100vw;
-    background-color: black;
+
     opacity: .6;
 }
 
 #header__text {
     color: orange;
+
     font-size: 75px;
     font-weight: bold;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
     padding: 0;
+
     margin-left: 250px;
     margin-top: 1.3%;
+
     text-shadow: 20px 20px 20px orange;
 }
 
@@ -37,15 +45,19 @@ button {
 }
 
 #game-bundle-one {
+    border: 2px solid orange;
+    border-radius: 5px;
+
     background-image: url(https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-05-03-11-20/borderlands_3.jpeg/EG11/resize/690x-1/quality/75/format/jpg);
     background-size: 355px 407px;
     background-repeat: no-repeat;
-    opacity: .6;
+    
     width: 45vw;
+
     margin-top: 30px;
     margin-left: 50px;
-    border: 2px solid orange;
-    border-radius: 5px;
+    
+    opacity: .6;
     transition: all 1s ease;
 }
 
@@ -57,23 +69,27 @@ button {
 
 #game-bundle-one-text {
     color: orange;
-    margin-top: 290px;
     background-color: black;
+    margin-top: 290px;
     opacity: .8;
     font-size: 30px;
     text-align: center;
 }
 
 #game-bundle-two {
+    border: 2px solid orange;
+    border-radius: 5px;
+
     background-image: url(https://gamespot1.cbsistatic.com/uploads/scale_medium/1197/11970954/2877410-910bfmlqqjl._sl1500_.jpg);
     background-size: 355px 407px;
     background-repeat: no-repeat;
-    opacity: .6; 
+ 
     width: 45vw;
+
     margin-top: 30px;
     margin-left: 50px;
-    border: 2px solid orange;
-    border-radius: 5px;
+
+    opacity: .6;
     transition: all 1s ease;
 }
 
@@ -85,24 +101,31 @@ button {
 
 #game-bundle-two-text {
     color: orange;
-    margin-top: 290px;
     background-color: black;
+
+    margin-top: 290px;
+
     opacity: .8;
+
     font-size: 30px;
     text-align: center;
 }
 
 #game-bundle-three {
+    border: 2px solid orange;
+    border-radius: 5px;
+
     background-image: url(https://images-na.ssl-images-amazon.com/images/I/71CEpaPQVeL._SL1500_.jpg);
     background-size: 355px 407px;
     background-repeat: no-repeat;
-    opacity: .6;
+
     width: 45vw;
+
     margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
-    border: 2px solid orange;
-    border-radius: 5px;
+    
+    opacity: .6;
     transition: all 1s ease;
 }
 
@@ -114,9 +137,12 @@ button {
 
 #game-bundle-three-text {
     color: orange;
-    margin-top: 290px;
     background-color: black;
+
+    margin-top: 290px;
+
     opacity: .8;
+
     font-size: 30px;
     text-align: center;
 }
@@ -124,13 +150,17 @@ button {
 #home-button {
     border: 2px solid orange;
     background-color: black;
+
     font-weight: bold;
     font-size: 20px;
+
     margin-top: 20px;
+
     height: 30px;
+    width: 200px;
+
     opacity: .6;
     transition: all 1s ease;
-    width: 200px;
 }
 
 #home-button:hover {
