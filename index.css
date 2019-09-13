@@ -9,7 +9,7 @@ a {
 
 #header {
     border: 1px solid black;
-    
+
     height: 20vh;
     width: 100vw;
 
@@ -75,10 +75,10 @@ a {
     width: 98.5vw;
     height: 35vh;
 
-    background-image: url(https://steamcdn-a.akamaihd.net/steam/bundles/8654/sc4xuexf1rtiahz4/header_586x192.jpg?t=1565992943);
+    background-image: url(https://media3.giphy.com/media/FpLzrNVJ97uta/giphy.gif?cid=790b7611f9f074aee21372e7f6062a4eebe6d2cac97b2e9e&rid=giphy.gif);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -30px;
+    background-position-y: 40%;
 
     margin-left: 10px;
     margin-top: 10px;
