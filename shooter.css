@@ -1,5 +1,6 @@
 body {
     margin: 0;
+
     background-image: url(https://stmed.net/sites/default/files/pc-gaming-hd-wallpapers-33488-1865181.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,21 +14,27 @@ button {
 
 #header {
     border: 1px solid black;
+    background-color: black;
+
     height: 20vh;
     width: 100vw;
-    background-color: black;
+
     opacity: .6;
 }
 
 #header__text {
     color: orange;
+    text-shadow: 20px 20px 20px orange;
+
     font-size: 75px;
     font-weight: bold;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
     padding: 0;
+
     text-align: center;
+
     margin-top: 1.3%;
-    text-shadow: 20px 20px 20px orange;
 }
 
 .game-bundles {
@@ -37,15 +44,19 @@ button {
 }
 
 #game-bundle-one {
+    border: 2px solid orange;
+    border-radius: 5px;
+
     background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/CallofDutyModernWarfare%282019%29.jpg/220px-CallofDutyModernWarfare%282019%29.jpg);
     background-size: 355px 407px;
     background-repeat: no-repeat;
-    opacity: .6;
+
     width: 45vw;
+
     margin-top: 30px;
     margin-left: 50px;
-    border: 2px solid orange;
-    border-radius: 5px;
+    
+    opacity: .6;
     transition: all 1s ease;
 }
 
@@ -57,23 +68,30 @@ button {
 
 #game-bundle-one-text {
     color: orange;
-    margin-top: 290px;
     background-color: black;
+
+    margin-top: 290px;
+
     opacity: .9;
+
     font-size: 30px;
     text-align: center;
 }
 
 #game-bundle-two {
+    border: 2px solid orange;
+    border-radius: 5px;
+
     background-image: url(https://cdn1.thr.com/sites/default/files/imagecache/NFE_portrait/2014/04/splinter_cell_cover.jpg);
     background-size: 355px 407px;
     background-repeat: no-repeat;
-    opacity: .6; 
+
     width: 45vw;
+
     margin-top: 30px;
     margin-left: 50px;
-    border: 2px solid orange;
-    border-radius: 5px;
+
+    opacity: .6; 
     transition: all 1s ease;
 }
 
@@ -85,24 +103,31 @@ button {
 
 #game-bundle-two-text {
     color: orange;
-    margin-top: 290px;
     background-color: black;
+
+    margin-top: 290px;
+
     opacity: .9;
+
     font-size: 30px;
     text-align: center;
 }
 
 #game-bundle-three {
+    border: 2px solid orange;
+    border-radius: 5px;
+
     background-image: url(https://i1.wp.com/painterlegend.com/wp-content/uploads/images/games-multiplayer-video-game-world-theatrical-scenery-art-18-18-scenery-art-wallpaper.jpg?fit=800%2C500&ssl=1);
     background-size: 355px 407px;
     background-repeat: no-repeat;
-    opacity: .6;
+
     width: 45vw;
+
     margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
-    border: 2px solid orange;
-    border-radius: 5px;
+
+    opacity: .6;
     transition: all 1s ease;
 }
 
@@ -114,9 +139,12 @@ button {
 
 #game-bundle-three-text {
     color: orange;
-    margin-top: 290px;
     background-color: black;
+
+    margin-top: 290px;
+
     opacity: .9;
+
     font-size: 30px;
     text-align: center;
 }
@@ -124,13 +152,17 @@ button {
 #home-button {
     border: 2px solid orange;
     background-color: black;
+
     font-weight: bold;
     font-size: 20px;
+
     margin-top: 20px;
+    
     height: 30px;
+    width: 200px;
+
     opacity: .6;
     transition: all 1s ease;
-    width: 200px;
 }
 
 #home-button:hover {
