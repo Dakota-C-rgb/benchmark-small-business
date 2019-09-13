@@ -40,7 +40,7 @@ a {
 }
 
 #first-game-box:hover {
-    box-shadow: 4px 4px 4px 4px blue;
+    box-shadow: 4px 4px 4px 4px orange;
 }
 
 #first-game-text {
@@ -70,7 +70,7 @@ a {
 }
 
 #second-game-box:hover {
-    box-shadow: 4px 4px 4px 4px blue;
+    box-shadow: 4px 4px 4px 4px orange;
 }
 
 #second-game-text {
@@ -99,7 +99,7 @@ a {
 }
 
 #third-game-box:hover {
-    box-shadow: 4px 4px 4px 4px blue;
+    box-shadow: 4px 4px 4px 4px orange;
 }
 
 #third-game-text {
