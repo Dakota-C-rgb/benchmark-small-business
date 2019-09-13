@@ -36,11 +36,13 @@ a {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    opacity: .4;
     transition: all 1s ease;
 }
 
 #first-game-box:hover {
     box-shadow: 4px 4px 4px 4px orange;
+    opacity: 1;
 }
 
 #first-game-text {
@@ -62,6 +64,7 @@ a {
     margin-top: 10px;
     width: 98.5vw;
     height: 35vh;
+    opacity: .4;
     transition: all 1s ease;
     background-image: url(https://steamcdn-a.akamaihd.net/steam/bundles/8654/sc4xuexf1rtiahz4/header_586x192.jpg?t=1565992943);
     background-size: cover;
@@ -71,6 +74,7 @@ a {
 
 #second-game-box:hover {
     box-shadow: 4px 4px 4px 4px orange;
+    opacity: 1;
 }
 
 #second-game-text {
@@ -91,6 +95,7 @@ a {
     margin-top: 10px;
     width: 98.5vw;
     height: 35vh;
+    opacity: .4;
     transition: all 1s ease;
     background-image: url(https://www.barraques.cat/pngfile/big/138-1387604_computer-game-wallpaper-warface-first-person-shooter-warface.jpg);
     background-size: cover;
@@ -100,6 +105,7 @@ a {
 
 #third-game-box:hover {
     box-shadow: 4px 4px 4px 4px orange;
+    opacity: 1;
 }
 
 #third-game-text {
